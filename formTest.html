@@ -1,0 +1,46 @@
+<DOCTYPE html>
+  <html>
+  <head>
+  <title>Form Demo</title>
+</head>
+<body>
+
+  <h1>Login</h1>
+
+  <!-- action - where the form sends data to -->
+  <!-- method - what HTTP method (get/post) -->
+
+  <form action="http://www.pilobyte.com">
+
+  <lable> Username:
+    <input name="username" type="email" placeholder="username" required>
+  </lable>
+  <lable> Password:
+    <input name="password" type="password" placeholder="password" required>
+  </lable>
+  <lable> Submit:
+    <input type="submit">
+  </lable>
+  </form>
+  <input type="radio">
+  <input type="checkbox">
+  <p> Do you prefer cats or dogs?</p>
+  <form>
+    <lable for="dogs"> Dogs: </lable>
+    <input name="petChoice" id="dogs" type="radio" value="DOGS">
+    <lable for="cats"> Cats: </lable>
+    <input name="petChoice" id="cats" type="radio" value="CATS">
+
+<p>What is your favorite color</p>
+<select name="color">
+  <option>Red</option>
+  <option>Orange</option>
+  <option>Yellow</option>
+</select>
+
+    <button>Go!</button>
+  </form>
+  <textarea rows="12" cols="20"></textarea>
+
+</body>
+</html>
